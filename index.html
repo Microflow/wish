@@ -14,6 +14,12 @@
 
 <style>
 
+  .navbar-brand {
+    color: #440011 !important;
+    font-weight: 700;
+    letter-spacing: -4px !important;
+    font-size: 57px !important;
+  }
   
   .sec-contact .btn, a {
   transition: all 0.25s;
@@ -27,17 +33,20 @@ html {
 body {
   font-family: "Open sans", sans-serif;
   font-weight: 300;
-  background: #070707;
+  background: #fefefe !important;
+  color: #555 !important;
 }
 
 .navbar a,
 .sec-about p {
   text-align: center;
+  color: #003344;
 }
 
 .navbar a {
-  font-size: 19px;
-  letter-spacing: 1px;
+  font-size: 22px;
+  letter-spacing: 8px;
+  color: #660011;
 }
 
 .navbar .fa-external-link {
@@ -48,7 +57,7 @@ body {
   font-family: "Open sans", sans-serif;
   font-weight: 300;
   text-align: center;
-  letter-spacing: 9px;
+  letter-spacing: -9px;
   text-transform: uppercase;
 }
 
@@ -73,8 +82,11 @@ body {
 }
 
 h2 {
-  color: #dedede;
+  color: #660022;
   font-weight: bold;
+  font-size: 55px;
+  letter-spacing: -3px;
+  line-height: 80px;
 }
 
 h3 {
@@ -84,10 +96,30 @@ h3 {
   font-size: 28px;
 }
 
+  /*SPANS*/
+  
+  
+      .question-mark {
+      color: #e32266
+      }
+  
+  .who-will-pay-title {
+    color: #991144;
+    letter-spacing: 5px;
+    font-size: 38px;
+    font-variant: small-caps;
+    text-indent: 100px;
+    text-align: left;
+  }
+  
 .who-will-pay-wrapper {
   width: 60%;
   margin: auto;
-}
+  color: #661144;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  text-align: right;
+ }
 
 p {
   font-size: 16px;
@@ -165,7 +197,7 @@ hr {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #008080;
+  color: #005555;
 }
 
 .navbar-default .navbar-nav > li > a:active {
@@ -179,11 +211,12 @@ hr {
   }
   
   a:visited {
-    color: #888;
+    color: #aa0022;
+    text-decoration: underline;
   }
   
   a:hover {
-    color: #008080;
+    color: #bb0044;
   }
   
   a:active {
@@ -195,9 +228,10 @@ hr {
 /*Main*/
 .sec-main {
   position: relative;
-  height: 300px;
-  background: url(https://assets.codepen.io/577362/Kalki-Emerald-2022.jpeg) no-repeat center center;
-  background-size: cover;
+  height: 500px; /*Make pic bigger here */
+  width: 100%;
+  background: url(https://assets.codepen.io/577362/Legs-SG-Duotone) no-repeat center center ;
+ /* background-size: 50% 80%; /* width then height*/
   background-opacity: 0.3;
 }
 .sec-main:after {
@@ -219,12 +253,12 @@ hr {
   z-index: 2;
   padding: 0;
   margin: auto;
-  height: 20px;
-  /* Lower this to lower text */
+  height: 70px;
+  /* Lower this numberto lower text */
   font-weight: bold;
-  font-size: 60px;
-  letter-spacing: -3px;
-  color: #eee;
+  font-size: 160px;
+  letter-spacing: -20px;
+  color: #330033;
 }
 
 /*About*/
@@ -311,16 +345,17 @@ footer {
 .btn-default {
   padding: 20px 34px;
   min-width: 100%;
-  background-color: #070707;
+  background-image: url("https://assets.codepen.io/577362/Legs-SG-Duotone");
   cursor: crosshair;
   margin: auto;
   font-family: "Open sans";
   color: #fefefe;
-  font-size: 33px;
-  font-weight: bold;
-  letter-spacing: 3px;
+  font-size: 73px;
+  font-weight: 200;
+  /*font-variant: small-caps;*/
+  letter-spacing: -3px;
   border-radius: 2px 20px 2px 20px;
-  border: 5px solid #fefefe;
+  border: 2px solid #dedede;
   /*   text-transform: uppercase; */
 }
 
@@ -370,7 +405,7 @@ h4 {
             <span class="icon-bar"></span>
           </button>
 
-          <a href="#" class="navbar-brand">Devero</a>
+          <a href="#" class="navbar-brand">WISH ~</a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -395,7 +430,7 @@ h4 {
   </header>
 
   <section id="home" class="sec-main">
-    <h1 class="main-heading">Make a Wishlist - Do Some Work </h1>
+    <h1 class="main-heading"> </h1>
   </section>
 
   
@@ -647,14 +682,17 @@ IMPORTANT DONT DELETE THIS SECTION
   <section id="contact" class="sec-contact">
     <div class="container">
       <h1 class="upload-project">Upload a Project</h1>
-      <h2> 1. Write a Patreon detailing what you want to do. Example: Plant trees or clean up trash for 20 USD per hour.</h2>
+      <h2> 1. Write a Wishlist and post it on Amazon or Xwish. What do you want? <span>New ukelele, wheatgrass, bamboo ?</span> </h2>
       
-      <h2> 2. Post the Patreon on this subreddit, with a title like: "I need 20bucks per hour to clean up trash in my neighbourhood".</h2>
+      <h2> 2. What will you do in return for the gift? <span>Clean up trash in my neighbourhood for three hours.</span></h2>
       
-      <h2> 3. Wait for your ad to be approved. Hope someone pays.</h2>
+      <h2> 3. Post your wishlist <a href="https://www.reddit.com/r/3wishesapp" target="_blank" >on our Subreddit</a></h2>
       <hr />
       
-     <h3 class="who-will-pay-wrapper"> Who will pay? We are actively going round churches, temples, digital communities and investors, making them aware of this web portal. We hope to draw attention to everyone looking for work.</h3>
+      
+      <h3 class="who-will-pay-title">Who Will Pay<span class="question-mark">?</span></h3>
+      
+     <h3 class="who-will-pay-wrapper"> We are actively going round churches, temples, digital communities and investors, making them aware of this web portal. We hope to draw attention to everyone looking for work.</h3>
       
       <h1>~O~</h1>
 
@@ -855,862 +893,4 @@ https://wersm.com/helping-the-homeless-this-startup-has-an-app-for-that/#:~:text
 });
 </script>
 </body>
-</html> 
-<!DOCTYPE html>
-<html>
-  <head>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" async></script>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" async></script>
-<link rel="stylesheet" href="https://codepen.io/Teeke/pen/abqqbgR.css"> 
- -->
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
-
-
-
-<title>Kalki</title>
-
-<style>
-
-  
-  .sec-contact .btn, a {
-  transition: all 0.25s;
-}
-
-/*=Typography=*/
-html {
-  font-size: 16px;
-}
-
-body {
-  font-family: "Open sans", sans-serif;
-  font-weight: 300;
-  background: #070707;
-}
-
-.navbar a,
-.sec-about p {
-  text-align: center;
-}
-
-.navbar a {
-  font-size: 19px;
-  letter-spacing: 1px;
-}
-
-.navbar .fa-external-link {
-  font-size: 10px;
-}
-
-.main-heading {
-  font-family: "Open sans", sans-serif;
-  font-weight: 300;
-  text-align: center;
-  letter-spacing: 9px;
-  text-transform: uppercase;
-}
-
-#thumbnails {
-  width: 80%;
-  /* background-color: teal; */
-  margin: auto;
-}
-
-.container > h1 {
-  font-weight: 300;
-  text-align: center;
-  text-transform: small-caps;
-  color: #fefefe;
-  font-weight: bold;
-  font-size: 40px;
-  letter-spacing: 2px;
-}
-
-.upload-project {
-  font-size: 43px;
-}
-
-h2 {
-  color: #dedede;
-  font-weight: bold;
-}
-
-h3 {
-  color: #ddd;
-  letter-spacing: -1px;
-  font-variant: italics;
-  font-size: 28px;
-}
-
-.who-will-pay-wrapper {
-  width: 60%;
-  margin: auto;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.sec-about a {
-  text-decoration: none;
-}
-
-.sec-services h2,
-.sec-services p {
-  font-weight: 300;
-  text-align: center;
-}
-
-.sec-testimonials p {
-  font-style: italic;
-}
-
-.sec-contact .btn {
-  text-transform: uppercase;
-}
-
-.soc-media-ul a {
-  text-align: center;
-  text-decoration: none;
-}
-
-/*=Base=*/
-section {
-  padding: 5em 0;
-}
-
-footer {
-  padding: 3em 0;
-}
-
-@media screen and (max-width: 768px) and (min-width: 485px) {
-  form {
-    max-width: 70%;
-  }
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-hr {
-  margin-bottom: 3em;
-  width: 7%;
-}
-
-/*=Layout=*/
-.sec-folio .row {
-  margin-bottom: 3em;
-}
-
-.sec-folio img {
-  max-width: 100%;
-}
-
-/*Header*/
-.navbar-default {
-  background: #fff;
-  font-weight: bold;
-  font-size: 23px;
-}
-
-.navbar .fa-external-link {
-  vertical-align: top;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #008080;
-}
-
-.navbar-default .navbar-nav > li > a:active {
-  color: #940000;
-}
-  
-  /*Style links*/
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: #888;
-  }
-  
-  a:hover {
-    color: #008080;
-  }
-  
-  a:active {
-    color: #008080;
-  }
-  
-  
-  
-/*Main*/
-.sec-main {
-  position: relative;
-  height: 300px;
-  background: url(https://assets.codepen.io/577362/Kalki-Emerald-2022.jpeg) no-repeat center center;
-  background-size: cover;
-  background-opacity: 0.3;
-}
-.sec-main:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 40%;
-  /* background: rgba(0, 0, 0, .5); */
-}
-
-.main-heading {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-  padding: 0;
-  margin: auto;
-  height: 20px;
-  /* Lower this to lower text */
-  font-weight: bold;
-  font-size: 60px;
-  letter-spacing: -3px;
-  color: #eee;
-}
-
-/*About*/
-.sec-about a {
-  color: #000;
-}
-.sec-about a:hover, .sec-about a:focus {
-  color: #ad0000;
-}
-
-/*Services*/
-.sec-services {
-  background: #f9f9f9;
-}
-
-.sec-services i {
-  display: block;
-  margin: auto;
-  width: 45px;
-}
-
-.sec-services .fa-paint-brush {
-  width: 64px;
-}
-
-.sec-services .fa-code {
-  width: 68px;
-}
-
-.sec-services h2 {
-  margin: 1em 0;
-}
-
-/*Testimonials*/
-.sec-testimonials {
-  background: #f9f9f9;
-}
-
-/*Contact*/
-.sec-contact .form-control:focus {
-  border-color: #ad0000;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(173, 0, 0, 0.6);
-}
-
-.sec-contact .btn {
-  padding: 0.5rem 1.75rem;
-  background: #000;
-  font-size: 0.95rem;
-  color: #fff;
-}
-.sec-contact .btn:hover, .sec-contact .btn:focus {
-  background: #ad0000;
-  border-color: #7a0000;
-}
-
-/*Footer*/
-footer {
-  background: #000;
-}
-
-.soc-media-ul {
-  display: flex;
-  justify-content: center;
-}
-
-.soc-media-ul li:not(:first-child) a {
-  margin-left: 1em;
-}
-
-.soc-media-ul a {
-  display: block;
-  padding: 0.5em 0.65rem;
-  font-size: 1rem;
-  color: #fff;
-  border-radius: 50%;
-  border: 2px solid;
-  text-decoration: none;
-}
-.soc-media-ul a:hover, .soc-media-ul a:focus {
-  color: #ad0000;
-}
-
-/* Buttons */
-.btn-default {
-  padding: 20px 34px;
-  min-width: 100%;
-  background-color: #070707;
-  cursor: crosshair;
-  margin: auto;
-  font-family: "Open sans";
-  color: #fefefe;
-  font-size: 33px;
-  font-weight: bold;
-  letter-spacing: 3px;
-  border-radius: 2px 20px 2px 20px;
-  border: 5px solid #fefefe;
-  /*   text-transform: uppercase; */
-}
-
-.btn-default:hover {
-  background-color: #111;
-  color: #fefefe;
-  /*   border: 3px solid #004488; */
-}
-
-/*  Text From Reddit Display */
-.sc {
-  color: #3b8595;
-}
-
-.ny {
-  color: #3d3c3a;
-}
-
-.atw {
-  color: #c48660;
-}
-
-h4 {
-  color: #fefefe;
-  font-weight: bold;
-  font-family: "Open sans";
-  font-size: 29px;
-  text-decoration: none !important; 
-}
-
-    </style>
-  </head>
-
-<body>
-<div class="wrapper">
-  <header role="header">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
-            <span class="sr-only">Toggle Navigation</span>
-            
-            <span class="icon-bar"></span>
-            
-            <span class="icon-bar"></span>
-            
-            <span class="icon-bar"></span>
-          </button>
-
-          <a href="#" class="navbar-brand">Devero</a>
-        </div>
-
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right js-nav">
-            <li><a href="#home">Home</a></li>
-<!--
-            <li><a href="#about">About</a></li>
-
-            <li><a href="#services">Services</a></li>
-
-            <li><a href="#folio">Folio</a></li>
-
-            <li><a href="#testimonials">Testimonials</a></li>
--->
-            <li><a href="#contact">Contact</a></li>
-
-            <li><a href="http://alexsblog.org" target="_blank">N Prize</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <section id="home" class="sec-main">
-    <h1 class="main-heading">Raise 100USD > Fix Something</h1>
-  </section>
-
-  
-  
-  
-  
-  
-  <!-- BRING THIS BACK LATER 
-  
-  <section id="about" class="sec-about">
-    <div class="container">
-      <h1>About me</h1>
-
-      <hr />
-
-      <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-          <p>Hi, my name is Alex Devero and I am a Web Designer & Developer based in Prague. I love crafting beautiful web pages in HTML5, CSS3 and JavaScript or jQuery. My other skills include WordPress, Photoshop, Illustrator. You can grab my CV in
-            <a href="#">English</a> or <a href="#">Czech</a> version. If you want to hire me or just to talk, <a class="js-connect" href="#footer">connect</a> with me.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="services" class="sec-services">
-    <div class="container">
-      <h1>Services</h1>
-
-      <hr />
-
-      <div class="row">
-        <div class="col-sm-4">
-          <i class="fa fa-4x fa-paint-brush"></i>
-
-          <h2 class="h3">Beautiful Design</h2>
-
-          <p>Every website is beautiful, unique and tailored to suit your needs and requirements.</p>
-        </div>
-
-        <div class="col-sm-4">
-          <i class="fa fa-4x fa-code"></i>
-
-          <h2 class="h3">Clean Code</h2>
-
-          <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
-        </div>
-
-        <div class="col-sm-4">
-          <i class="fa fa-4x fa-tablet"></i>
-
-          <h2 class="h3">Always Responsive</h2>
-
-          <p>All websites are responsive. They will look great on desktop, tablets and mobile phones too.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="folio" class="sec-folio">
-    <div class="container">
-      <h1>Previous Work</h1>
-
-      <hr />
-
-      <div class="row">
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/Oog0wehKxYs/450x450" alt="By Håkon Sataøen" />
-        </div>
-
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/EfpOiZvPbT4/450x450" alt="By Samuel Zeller" />
-        </div>
-
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Scott Webb" />
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/o2KD7JtqTlk/450x450" alt="By Has Bonk" />
-        </div>
-
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/TV2ET43jK0w/450x450" alt="By Scott Webb" />
-        </div>
-
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/lZ2LB1s_z7s/450x450" alt="By Daniel Lozano Valdés" />
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/o4qL4FuwN6I/450x450" alt="By Anthony DELANOIX" />
-        </div>
-
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/ej7RYC0ED_c/450x450" alt="By Patrick Pilz" />
-        </div>
-
-        <div class="col-md-4">
-          <img class="center-block" src="https://source.unsplash.com/0G1r-Cg0zS8/450x450" alt="By Vita Vilcina" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="testimonials" class="sec-testimonials">
-    <div class="container">
-      <h1>Clients said</h1>
-
-      <hr />
-
-      <div class="row">
-        <div class="col-sm-4">
-          <p class="text-center">"Alex did great job when designing our website. It was pleasure to work with him and I'm sure we will hire him again."</p>
-
-          <p class="text-right">&mdash; Marc Andressen</p>
-        </div>
-
-        <div class="col-sm-4">
-          <p class="text-center">"Alex proved to be truly creative designer who is able to create just stunning design I immediately fell in love with!"</p>
-
-          <p class="text-right">&mdash; Emily Cooper</p>
-        </div>
-
-        <div class="col-sm-4">
-          <p class="text-center">"I have worked with several different people and it always seemed like a pain—luckily I found Alex Devero. Thank you Alex!"</p>
-
-          <p class="text-right">&mdash; Scott Grubber</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-Bring in Later
-
---> 
-
-  <section id="display-projects">
-    <div class="container">
-      </container>
-    <h1>
-   <div class="row"
-
-      <div class="row">
-        <div class="col-sm-4 col-sm-offset-4">      
-
-          
-        
-  <br>
-<div class="container">
-  <div class="title"></h1>    
-<!--  <section id="home" class="sec-main">
-      <h1 class="main-heading">
-      Homeless Deliveries</h1>
-    </section> -->
-
-<!--     <section id="mission" class="sec-about">
-      <div class="container">
-        <h1 class="mission-title">兼職工作: 300 TWD 每小時</h1> -->
-          <br>
- 
-<!-- <span class="region-name"></span> -->
-  
-  
-  <div class="buttons">
-  <button value = "WhiteRoseDanshui" class="btn btn-default redditExample"> Work Cleaning Up</button>
-    <br>    <br>
-   <button value = "zfh" class="btn btn-default redditExample"> Misc Jobs</button>
-  <br><br><br><br>
-  </div>
-
-  
-  
-  <!--     <button value = "EarthPorn" class="btn btn-default redditExample"> Earth 地球</button>
-       <button value = "Taiwan" class="btn btn-default redditExample">Taiwan 台灣</button> -->
-
-  
-
-<!--         <button value = "fforwardEarth" class="btn btn-warning redditExample">Offer</button> -->
-<!--     <button value = "programming" class="btn btn-default redditExample">Programming</button> -->
-  </div>
-  
- 
-<!--   <div class ="inputYourOwn">
-    <h4>Enter Your Own (Ex. Cats)</h4>
-    <input type="text" id="searchReddit">
-  <button class="btn btn-default" id="submit" type="submit">Submit</button>
-  </div> -->
-
-  <div id="thumbnails">
- 
-  </div>
-   <br>
-   <br>
-   <br>
-<!--    <div class="instructions"> If you see a homeless person:
-  <br>  <br>
-  1. Approach them respectfully and ask them what they need.
-      <br>  
-  2. Take a video of the place, or your conversation.
-      <br>  
-  3. Upload the video to our subreddit: 
-      <br>
- https://www.reddit.com/r/WhiteRoseDanshui/
-      <br>
-    Click “Submit Link” on a Reddit video-enabled subreddit.  <br>
-Click “Choose File.”  <br>
-Select an MP4 or MOV video file to upload.  <br>
-Choose a thumbnail for your video.  <br>
-Add a title.  <br>
-Click “Submit.”  <br>
-    
-    To use this trial version of the app you will need a reddit account.   <br>
-  
-  </div> -->
-</div>  
-  
-<!--   
-
-IMPORTANT DONT DELETE THIS SECTION
-
-<section>
-  <div class="block">
-    <p><span class="first-character sc">I</span>f you want to help this experiment, please check our docs <a href="https://github.com/Microflow/Homeless-Delivery">here</a></p>
-    <p class="line-break margin-top-10"></p>
-  </div>
-</section> -->
-  
-  
-</div>
-          
-          <!-- EDN REDDIT -->
-          
-          
-      </div>
-      </div>
-    </h1>
-  </section>
-
-
-    
-    
-    
-    
-    <!-- START CONTACT FORM -->
-
-  <section id="contact" class="sec-contact">
-    <div class="container">
-      <h1 class="upload-project">Upload a Project</h1>
-      <h2> 1. Write a Patreon detailing what you want to do. Example: Plant trees or clean up trash for 20 USD per hour.</h2>
-      
-      <h2> 2. Post the Patreon on this subreddit, with a title like: "I need 20bucks per hour to clean up trash in my neighbourhood".</h2>
-      
-      <h2> 3. Wait for your ad to be approved. Hope someone pays.</h2>
-      <hr />
-      
-     <h3 class="who-will-pay-wrapper"> Who will pay? We are actively going round churches, temples, digital communities and investors, making them aware of this web portal. We hope to draw attention to everyone looking for work.</h3>
-      
-      <h1>~O~</h1>
-
-      <!-- <div class="row">
-        <div class="col-sm-4 col-sm-offset-4">
-          <form class="center-block" action="#" method="post">
-            <div class="form-group">
-              <label class="sr-only" for="inputName">Full name</label>
-
-              <input id="inputName" class="form-control" type="text" placeholder="Adam Smith" required />
-            </div>
-
-            <div class="form-group">
-              <label for="inputMail" class="sr-only">Email Address</label>
-
-              <input id="inputMail" class="form-control" type="email" placeholder="adam.smith@mail.com" required />
-            </div>
-
-            <div class="form-group">
-              <label for="inputMessage" class="sr-only">Your Message</label>
-
-              <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
-            </div>
-
-            <div class="form-group">
-              <button class="btn btn-default center-block" type="submit" value="Hire me">Click</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
--->
-  <footer id="footer">
-    <div class="container">
-      <ul class="soc-media-ul">
-        <li>
-          <a href="https://twitter.com/AlexDevero" class="fa fa-twitter" target="_blank"></a>
-        </li>
-
-        <li>
-          <a href="https://plus.google.com/u/0/+AlexDevero" class="fa fa-google-plus" target="_blank"></a>
-        </li>
-
-        <li>
-          <a href="https://cz.linkedin.com/pub/alex-devero/38/262/70/" class="fa fa-linkedin" target="_blank"></a>
-        </li>
-
-        <li>
-          <a href="https://www.behance.net/d3v3r0" class="fa fa-behance" target="_blank"></a>
-        </li>
-
-        <li>
-          <a href="mailto:example@mail.com" class="fa fa-envelope"></a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-</div>
-
-    <!-- Import Script -->
-    
-    <script>
-  /*Importing Original Homeless App JS*/
-
-$( "#submit" ).click(function()  {  
-  formatTiles('#searchReddit');
-});
-
-function submit() {
-  formatTiles('#searchReddit');
-}
-
-function formatTiles (id) {
-    
-    //get search term
-    var value = '';
-    if (id == '#searchReddit') {
-      value = $('#searchReddit').val();
-    } else {
-      value = $(this).val();
-    }
-  
-  //put URL together based on url
-  var redditURL = "https://www.reddit.com/r/" + value + ".json?limit=50";
-
-  //get the data
-  $.ajax({
-  url: redditURL,
-  beforeSend: function( xhr ) {
-    xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
-    $('#thumbnails').html('<h2 class="loading">Loading <i class="fa fa-spinner" id="spin" aria-hidden="true"></i></h2>');
-  }
-})
-  .done(function( data ) {
-    
-      
-      let reddit = JSON.parse( data ),
-          thumbnail = '',
-          endDiv = '',
-          thumbnailImage = '',
-          url ='',
-          lengthOfData = reddit.data.children.length;
-      
-      for (var i = 0; i < lengthOfData; i++) {
-        //build url
-        url = reddit.data.children[i].data.url;
-        
-        //if no thumbnail - we need a default image
-        if (reddit.data.children[i].data.thumbnail.length < 8) {
-          thumbnailImage = 'https://avatars1.githubusercontent.com/u/14248?v=3&s=200';
-        } else {
-          thumbnailImage = reddit.data.children[i].data.thumbnail;
-        }
-          
-        //split up the tiles with rows
-        if ((i + 1)%3 === 0) {
-          thumbnail += '<div class="row">';
-          endDiv = '</div>';
-        }
-        
-        //this builds the tiles
-        thumbnail += '<a href="' + url + '" target="_blank"><div class="col-md-4 tile">';
-        thumbnail += '<img src="' + thumbnailImage+ '"/><h4>' + ' ' + reddit.data.children[i].data.title + '' + '</h4></div></a>';
-        thumbnail += endDiv;
-      }
-      
-     //display tiles 
-      $('#thumbnails').html(thumbnail);
-      
-  }).fail(function () {
-    $('#thumbnails').html("<h2>No cases today. Please try later</h2>");
-});
-  
-}
-
-$('.redditExample').click(formatTiles);
-$( "#searchReddit" ).keydown(function(event) {
-  if (event.keyCode == 13) {
-      submit();
-  }
-});
-
-//TODO 
-
-/*
-Fix Padding on photo. 
-Import Navbar from Kalki
-Get issues ready for open source. 
-make better buttons
-show hashtag examples
-incorporate hashtags
-research other homeless apps like feeding forward
-add other subreddits of interest
-https://scotch.io/tutorials/how-to-change-a-css-background-images-opacity
-https://codepen.io/ncerminara/pen/eFzJI/
-
-alter background pic:  background-position: 20% 0; /
-
-
-
-HELP THE HOMELSS APPS
-
-https://lifehacker.com/use-these-apps-to-get-immediate-help-for-the-homeless-1823001478
-
-In San Francisco’s Tenderloin District, Concrn is a bare-bones app for requesting a “compassionate responder” when emergency services aren’t necessary. A responder will usually call the user for more details, then come and help the homeless person find appropriate services. Users can indicate the urgency of the request (options include “this week,” “within an hour,” and “now”) and add a photo and text.
-
-
-
-
-https://wersm.com/helping-the-homeless-this-startup-has-an-app-for-that/#:~:text=%23Trashtag%20%E2%80%93%20The%20Social%20Challenge%20That%20Cleans%20Up%20Communities&text=So%20he%20created%20Samaritan%2C%20the,and%20provided%20a%20helping%20hand.&text=Samaritan%20equips%20the%20homeless%20with,locate%20them%20within%20the%20app.
-
-
-
-
-*/
-  
-</script>
-
-<script>
-      $(function() {
-  $('.js-nav a, .js-connect').click(function(e) {
-    e.preventDefault();
-    $('body, html').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
-    }, 750);
-  });
-      });
-  </script>
-<script>
-  $(function() {
-  $('.js-nav a, .js-connect').click(function(e) {
-    e.preventDefault();
-    $('body, html').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
-    }, 750);
-  });
-});
-</script>
-</body>
-</html> 
+</html>
